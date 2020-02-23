@@ -28,7 +28,7 @@ def kesha_maker(array)
   end
 end
   
-kesha_maker do word 
+kesha_maker(Array) do word 
   word.insert(3, '$')
   word[4] = '' 
 end 
