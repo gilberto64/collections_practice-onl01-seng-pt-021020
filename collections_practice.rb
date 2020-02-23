@@ -25,7 +25,7 @@ def kesha_maker(array)
 end
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
-
+# "abcd".slice!(4)
 
 # def my_each(array)
 #   i = 0 
