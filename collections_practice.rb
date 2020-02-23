@@ -30,7 +30,7 @@ end
   
  
 
-kesha_maker(array)
+kesha_maker(array) do word 
 
 x.insert(3, '$')
 x[4] = '' 
