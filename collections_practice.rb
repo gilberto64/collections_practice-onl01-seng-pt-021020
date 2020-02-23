@@ -28,12 +28,10 @@ def kesha_maker(array)
   end
 end
   
- 
-
 kesha_maker(array) do word 
-
-word.insert(3, '$')
-word[4] = '' 
+  word.insert(3, '$')
+  word[4] = '' 
+end 
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
 # s[4] = ‘’
