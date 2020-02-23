@@ -20,10 +20,12 @@ def reverse_array (array)
 end
 
 def kesha_maker(array)
-  array.each |x| {yield}
-  
-  kesha_maker(x) 
-  x.insert(3, '$')
+  array.each |x,idx| {s"$idx" = array.join, yield}
+end 
+
+kesha_maker(x) 
+x.insert(3, '$')
+x[4] = '' 
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
 # s[4] = ‘’
