@@ -23,12 +23,12 @@ def kesha_maker(array)
   i = 0
  
   while i < array.length
-    yield array[i]
+    yield 
     i = i + 1
   end
 end
   
-kesha_maker(Array) do word 
+kesha_maker(array) do word 
   word.insert(3, '$')
   word[4] = '' 
 end 
