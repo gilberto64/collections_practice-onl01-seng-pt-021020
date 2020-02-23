@@ -20,7 +20,8 @@ def reverse_array (array)
 end
 
 def kesha_maker(array)
-  array.insert(3, "$")
+  array.each {|n| }
+  
 end
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
