@@ -26,7 +26,7 @@ end
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
 # "abcd".slice!(4)
-#chars.delete_at(4)
+#chars.delete(4)
 
 # def my_each(array)
 #   i = 0 
