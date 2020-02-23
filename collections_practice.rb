@@ -33,7 +33,7 @@ end
 kesha_maker(array) do word 
 
 word.insert(3, '$')
-x[4] = '' 
+word[4] = '' 
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
 # s[4] = ‘’
