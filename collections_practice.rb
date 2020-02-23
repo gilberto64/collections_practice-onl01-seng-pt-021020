@@ -20,13 +20,13 @@ def reverse_array (array)
 end
 
 def kesha_maker(array)
-  array.each |x| {yield
+  array.each |x| {yield}
   
-  kesha_maker()
-
+  kesha_maker(x) 
+  x.insert(3, '$')
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
-# s[3,4] = ‘’
+# s[4] = ‘’
 
 # def my_each(array)
 #   i = 0 
