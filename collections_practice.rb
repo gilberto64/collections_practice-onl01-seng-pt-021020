@@ -20,7 +20,7 @@ def reverse_array (array)
 end
 
 def kesha_maker(array)
-  array.each {|n| }
+  array.each {|n,idx| str<< array.join(,)}
   
 end
 
