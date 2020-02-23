@@ -26,6 +26,7 @@ end
 
 # "abcd".insert(3, '$')    #=> "ab$cd"
 
+
 # def my_each(array)
 #   i = 0 
 #  while i < array.length
