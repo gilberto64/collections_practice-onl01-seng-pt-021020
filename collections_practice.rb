@@ -30,7 +30,8 @@ end
   
  
 
-kesha_maker(x) 
+kesha_maker(array)
+
 x.insert(3, '$')
 x[4] = '' 
 
